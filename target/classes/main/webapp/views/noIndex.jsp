@@ -11,9 +11,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="container shadow">
-<h1 class="text-center">Lista de alumnos</h1>
-</div>
+	<div class="container shadow">
+		<h1 class="text-center">Lista de alumnos</h1>
+	</div>
 
 	<div class="container shadow">
 		<table class="table table-dark">
@@ -25,7 +25,8 @@
 					<th scope="col">Curso</th>
 				</tr>
 			</thead>
-			<c:forEach var="alumno" items="${miModelo.ListaAlumnos}"> <!-- foreach(alumno in listalumnos) -->
+			<c:forEach var="alumno" items="${miModelo.ListaAlumnos}">
+				<!-- foreach(alumno in listalumnos) -->
 				<tbody>
 
 					<td><c:out value="${alumno.nombre}" /></td>
@@ -34,8 +35,7 @@
 					<td><c:out value="${alumno.curso}" /></td>
 					</tr>
 			</c:forEach>
+			<a class="btn btn-primary">ir al formulario Alumo</a>
 	</div>
-
-
 </body>
 </html>
