@@ -13,13 +13,4 @@
 		<welcome-file>default.htm</welcome-file>
 	</welcome-file-list>
 
-	<servlet>
-		<display-name>ControladorInsertAlumno</display-name>
-		<servlet-name>ControladorInsertAlumno</servlet-name>
-		<servlet-class>ejemploWebClase.web.Controllers.ControladorInsertAlumno</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ControladorInsertAlumno</servlet-name>
-		<url-pattern>/ControladorInsertAlumno</url-pattern>
-	</servlet-mapping>
 </web-app>
